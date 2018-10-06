@@ -73,6 +73,6 @@ int main()
 
 	HuffmanCode(arr, freq, size);
 
-	return ;
+	return 0;
 }
 
