@@ -33,7 +33,7 @@ void printCodes(struct MinHeapNode* root, string str)
 		return 1;
 
 	if (root->data != '$')
-		cout << root->data << ": " << str << "\n";
+		cout << root->data << ": " << str << "\t";
 
 	printCodes(root->left, str + "0");
 	printCodes(root->right, str + "1");
