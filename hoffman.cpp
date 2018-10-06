@@ -3,7 +3,7 @@
 using namespace std;
 
 
-struct MinHeapNode {
+struct MinHeapfunct {
 
 	char data;
 	unsigned freq;
