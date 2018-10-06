@@ -72,6 +72,7 @@ int main()
 	int size = sizeof(arr) / sizeof(arr[0]);
 
 	HuffmanCode(arr, freq, size);
+	HuffmanCode(arr, freq, size);
 
 	return 0;
 }
