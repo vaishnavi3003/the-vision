@@ -13,7 +13,7 @@ struct MinHeapNode {
 
 	{
 
-		left = right = NUL;
+		left = right = NULL;
 		this->data = data;
 		this->freq = freq;
 	}
