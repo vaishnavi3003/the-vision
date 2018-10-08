@@ -6,7 +6,7 @@ using namespace std;
 struct MinHeapfunct {
 
 	char data;
-	unsigned freq;
+	unsigne freq;
 	MinHeapNode *left, *right
 
 	MinHeapNode(char data, unsigned freq)
