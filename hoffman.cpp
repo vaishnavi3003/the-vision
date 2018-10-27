@@ -18,7 +18,7 @@ struct MinHeapfunct {
 		this->freq = freq;
 	}
 };
-struct compare {
+struct comparison {
 
 	bool operator()(MinHeapNode* l, MinHeapNode* r)
 
@@ -76,4 +76,3 @@ int main()
 
 	return 0;
 }
-
