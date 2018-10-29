@@ -8,7 +8,7 @@ struct MinHeapfunct {
 	char data;
 	unsigne freq;
 	MinHeapNode *left, *rig
-	MinHeapNode(char data, unsigned freq)
+	MinHeapNode(char data, unsigned freq
 
 	{
 
