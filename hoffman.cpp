@@ -36,7 +36,7 @@ void printCodes(struct MinHeapNode* root, string str)
 		cout << root->data << ": " << str << "\t";
 
 	printCodes(root->left, str + "0");
-	printCodes(root->right, str + "1");
+	printCodes(root->right, str + "1")
 }
 void HuffmanCodes(char data[], int freq[], int size)
 {
