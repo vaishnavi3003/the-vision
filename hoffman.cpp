@@ -7,7 +7,7 @@ struct MinHeapfunct {
 
 	char data;
 	unsigne freq;
-	MinHeapNode *left, *right
+	MinHeapNode *left, *right;
 
 	MinHeapNode(char data, unsigned freq)
 
@@ -25,7 +25,7 @@ struct comparison {
 	{
 		return (l->freq > r->freq);
 	}
-};
+}
 void printCodes(struct MinHeapNode* root, string str)
 {
 
