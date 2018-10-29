@@ -25,7 +25,7 @@ struct comparison {
 	{
 		return (l->freq > r->freq);
 	}
-};
+}
 void printCodes(struct MinHeapNode* root, string str)
 {
 
