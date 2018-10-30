@@ -1,6 +1,6 @@
 
 #include <bits/stdc++.h>
-using namespace ;
+using namespace 
 
 
 struct MinHeapfunct {
