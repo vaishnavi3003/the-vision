@@ -1,6 +1,6 @@
 
 #include <bits/stdc++.h>
-using namespace ;
+using namespace 
 
 
 struct MinHeapfunct {
@@ -9,7 +9,7 @@ struct MinHeapfunct {
 	unsigne freq;
 	MinHeapNode *left, *right;
 
-	MinHeapNode(char data, unsigned freq)
+	MinHeapNode(char data, unsigned freq
 
 	{
 
@@ -23,7 +23,7 @@ struct comparison {
 	bool operator()(MinHeapNode* l, MinHeapNode* r)
 
 	{
-		return (l->freq > r->freq);
+		return (l->freq > r->freq)
 	}
 }
 void printCodes(struct MinHeapNode* root, string str)
