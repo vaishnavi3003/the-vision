@@ -23,7 +23,7 @@ struct comparison {
 	bool operator()(MinHeapNode* l, MinHeapNode* r)
 
 	{
-		return (l->freq > r->freq);
+		return (l->freq > r->freq)
 	}
 }
 void printCodes(struct MinHeapNode* root, string str)
